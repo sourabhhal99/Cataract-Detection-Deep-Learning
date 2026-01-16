@@ -43,19 +43,19 @@ We optimized the model for **stability** (smooth loss convergence) instead of ag
 ### 🧠 1. Explainability (Grad-CAM)
 The model provides visual reasoning for its predictions. The heatmap below confirms the model focuses strictly on the **lens opacity** (cataract region).
 
-![Grad-CAM Reasoning](screenshots/Grad-CAM Reasoning.png)
+![Grad-CAM Reasoning](screenshots/Grad-CAM%20Reasoning.png)
 *(Fig: Left - Original Image, Center - Heatmap, Right - Model focus on the infected lens)*
 
 ### 🛡️ 2. Ethical Risk Report & Uncertainty
 We implemented an **Ethical Layer** that flags predictions if the model is uncertain (<85% confidence), even if the prediction is technically "correct". This prevents False Negatives in medical screening.
 
-![Ethical Report](screenshots/Ethical Report.png)
+![Ethical Report](screenshots/Ethical%20Report.png)
 *(Fig: The system detecting 'Risk' and suggesting medical consultation)*
 
 ### 📈 3. Training Stability
 The final model demonstrates a robust learning curve with no signs of overfitting.
 
-![Training Graph](screenshots/Training Graph.png)
+![Training Graph](screenshots/Training%20Graph.png)
 
 ---
 
